@@ -1,0 +1,85 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.cardbutton {
+	-fx-background-color: #6A9C78;
+	-fx-border-color: #FFF1BC;
+}
+
+.cardbutton:hover {
+    -fx-background-color: #FFF1BC;
+    -fx-border-color: #6A9C78;
+}
+
+.cardbutton:active {
+    -fx-background-color: #FFF1BC;
+    -fx-border-color: #6A9C78;
+}
+
+.namebutton {
+	-fx-background-color: #6A9C78;
+	-fx-background-radius:0 0 0 0;
+	-fx-text-fill:#F9F8ED;
+}
+
+.namebutton:hover {
+    -fx-background-color: #FFF1BC;
+    -fx-text-fill:#6A9C78;
+}
+
+
+.namebutton:active {
+    -fx-background-color: #FFF1BC;
+    -fx-text-fill:#6A9C78;
+}
+.chbutton {
+	-fx-background-color: #FFF1BC;
+	-fx-text-fill:#6A9C78;
+}
+
+.chbutton:hover {
+    -fx-background-color: #6A9C78;
+    -fx-text-fill:#F9F8ED;
+}
+
+.chbutton:focus {
+    -fx-background-color: #6A9C78;
+    -fx-text-fill:#F9F8ED;
+}
+
+#contactbutton {
+	-fx-background-color: #6A9C78;
+	-fx-background-radius:0 0 0 0;
+	-fx-text-fill:#F9F8ED;
+}
+
+#contactbutton:hover {
+    -fx-background-color: #C4E3CB;
+    -fx-text-fill:#6A9C78;
+}
+
+#exitbutton {
+	-fx-text-fill:#F9C4AA;
+}
+
+#exitbutton:hover {
+    -fx-text-fill:#FFB6B9;
+}
+
+#add{
+	-fx-background-color: #FFF1BC;
+	-fx-text-fill:#6A9C78;
+}
+
+#add:hover{
+	-fx-background-color: #C4E3CB;
+	-fx-text-fill:#6A9C78;
+}
+
+#send{
+	-fx-background-color: #6A9C78;
+	-fx-text-fill:#FFF1BC;
+}
+#send:hover{
+	-fx-background-color: #FFF1BC;
+	-fx-text-fill:#6A9C78;
+}

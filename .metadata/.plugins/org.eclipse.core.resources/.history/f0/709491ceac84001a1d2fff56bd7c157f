@@ -1,0 +1,17 @@
+package application;
+
+import java.awt.Button;
+import java.awt.TextField;
+
+import javafx.fxml.FXML;
+
+public class configController {
+	@FXML
+    private Button send;
+    @FXML
+    private TextField textfield;
+    public void eventButton1(){
+        String text = textfield.getText();//获取文本框输入的内容
+        System.out.println(text);
+    }
+}

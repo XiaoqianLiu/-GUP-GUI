@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="600.0" style="-fx-background-color: #C4E3CB;" stylesheets="@../../bin/application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.configController">
+   <children>
+      <Pane layoutY="19.0" prefHeight="31.0" prefWidth="200.0" style="-fx-background-color: #C4E3CB;">
+         <children>
+            <Pane layoutY="4.0" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #FFF1BC;" />
+         </children>
+      </Pane>
+      <Pane prefHeight="23.0" prefWidth="600.0" style="-fx-background-color: #6A9C78;" />
+      <VBox id="vbox" layoutY="52.0" prefHeight="348.0" prefWidth="150.0">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="150.0" styleClass="cardbutton">
+               <children>
+                  <ImageView id="iv0" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('./image/2.jpg');" />
+                  <Button id="friend0" mnemonicParsing="false" prefHeight="49.0" prefWidth="113.0" styleClass="namebutton" text="贾赛男" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="150.0" styleClass="cardbutton">
+               <children>
+                  <ImageView id="iv1" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('./image/2.jpg');" />
+                  <Button id="friend1" mnemonicParsing="false" prefHeight="49.0" prefWidth="113.0" styleClass="namebutton" text="贾赛男" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="150.0" styleClass="cardbutton">
+               <children>
+                  <ImageView id="iv2" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('./image/2.jpg');" />
+                  <Button id="friend2" mnemonicParsing="false" prefHeight="49.0" prefWidth="113.0" styleClass="namebutton" text="贾赛男" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="150.0" styleClass="cardbutton">
+               <children>
+                  <ImageView id="iv3" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('./image/2.jpg');" />
+                  <Button id="friend3" mnemonicParsing="false" prefHeight="49.0" prefWidth="113.0" styleClass="namebutton" text="贾赛男" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="150.0" styleClass="cardbutton">
+               <children>
+                  <ImageView id="iv4" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('./image/2.jpg');" />
+                  <Button id="friend4" mnemonicParsing="false" prefHeight="49.0" prefWidth="113.0" styleClass="namebutton" text="贾赛男" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="150.0" styleClass="cardbutton">
+               <children>
+                  <ImageView id="iv5" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('./image/2.jpg');" />
+                  <Button id="friend5" mnemonicParsing="false" prefHeight="49.0" prefWidth="113.0" styleClass="namebutton" text="贾赛男" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="150.0" styleClass="cardbutton">
+               <children>
+                  <ImageView id="iv6" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('./image/2.jpg');" />
+                  <Button id="friend6" mnemonicParsing="false" prefHeight="49.0" prefWidth="113.0" styleClass="namebutton" text="贾赛男" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Pane layoutX="151.0" layoutY="277.0" prefHeight="31.0" prefWidth="449.0" style="-fx-background-color: #6A9C78;">
+         <children>
+            <Button id="add" layoutX="4.0" layoutY="3.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="23.0" style="-fx-background-radius: 50% 50% 50% 50%; -fx-border-radius: 50% 50% 50% 50%;" text="＋" textAlignment="CENTER" textFill="#6a9c78">
+               <font>
+                  <Font name="Arial Bold Italic" size="9.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <Pane id="pane" layoutX="150.0" layoutY="53.0" prefHeight="222.0" prefWidth="449.0" style="-fx-background-image: url(3.jpg);">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="450.0">
+               <children>
+                  <ImageView id="headimg3" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('./image/2.jpg');" />
+                  <Button mnemonicParsing="false" prefHeight="65.0" prefWidth="400.0" style="-fx-background-color: #C4E3CB;" text="贾赛男" />
+                  <ImageView fitHeight="50.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../bin/application/7.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" layoutY="51.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" pannable="true" prefHeight="172.0" prefWidth="450.0" style="-fx-background-color: #C4E3CB;" vbarPolicy="ALWAYS" vmin="1.0" vvalue="1.0">
+               <content>
+                  <ListView fx:id="chatPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: C4E3CB;" />
+               </content>
+            </ScrollPane>
+         </children></Pane>
+      <Pane layoutX="151.0" layoutY="307.0" prefHeight="109.0" prefWidth="449.0" style="-fx-background-color: #C4E3CB;">
+         <children>
+            <TextField prefHeight="109.0" prefWidth="449.0" style="-fx-background-color: #C4E3CB;" />
+            <Button id="send" layoutX="399.0" layoutY="82.0" mnemonicParsing="false" onAction="#eventButton1" prefHeight="23.0" prefWidth="43.0" text="SEND" textFill="#f9f8ed">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="69.0" fitWidth="129.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../bin/application/9.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutX="150.0" layoutY="23.0" prefHeight="30.0" prefWidth="450.0" style="-fx-background-color: #F9F8ED;">
+         <children>
+            <TextField layoutX="20.0" layoutY="3.0" prefHeight="23.0" prefWidth="150.0" promptText="IP" style="-fx-background-color: #F9F8ED; -fx-border-color: #C4E3CB;" />
+            <TextField layoutX="180.0" layoutY="3.0" prefHeight="23.0" prefWidth="100.0" promptText="Port" style="-fx-background-color: #F9F8ED; -fx-border-color: #C4E3CB;" />
+            <Button id="contactbutton" layoutX="376.0" layoutY="3.0" mnemonicParsing="false" text="离开聊天" />
+            <Button id="contactbutton" layoutX="300.0" layoutY="3.0" mnemonicParsing="false" text="进入聊天" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
